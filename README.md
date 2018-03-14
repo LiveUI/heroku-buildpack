@@ -10,7 +10,7 @@ Example usage:
 $ ls
 Procfile Package.swift Sources
 
-$ heroku create --buildpack https://github.com/vapor-community/heroku-buildpack.git
+$ heroku create --buildpack https://github.com/LiveUI/heroku-buildpack.git
 
 $ git push heroku master
 remote: -----> Swift app detected
@@ -25,7 +25,7 @@ remote: -----> Installing binaries
 You can also add it to upcoming builds of an existing application:
 
 ```shell
-$ heroku buildpacks:set https://github.com/vapor-community/heroku-buildpack.git
+$ heroku buildpacks:set https://github.com/LiveUI/heroku-buildpack.git
 ```
 
 The buildpack will detect your app as Swift if it has a `Package.swift` file in
